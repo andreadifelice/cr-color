@@ -114,7 +114,7 @@ const Navbar1 = () => {
                   transition={{ delay: i * 0.1 + 0.1 }}
                   exit={{ opacity: 0, x: 20 }}
                 >
-                  <a href="#" className="text-base text-gray-900 font-medium" onClick={toggleMenu}>
+                  <a href={item.link} className="text-base text-gray-900 font-medium" onClick={toggleMenu}>
                     {item.name}
                   </a>
                 </motion.div>
