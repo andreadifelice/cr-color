@@ -1,20 +1,8 @@
-import { DIcons } from "dicons";
-//import {Link} from 'react-router'
-//import { useTheme } from "next-themes";
-
-/* function handleScrollTop() {
-  window.scroll({
-    top: 0,
-    behavior: "smooth",
-  });
-} */
-
 type FooterProps = {
   children?: React.ReactElement
 }
 
 const Footer = ({children}: FooterProps) => {
-  //const { setTheme } = useTheme();
 
   return (
     <div className="flex items-center justify-center">
@@ -23,9 +11,8 @@ const Footer = ({children}: FooterProps) => {
         <div className="flex flex-row items-center justify-center gap-1 text-slate-600 dark:text-slate-400">
           <span> © </span>
           <span>{new Date().getFullYear()}</span>
-          <span>Made with</span>
-          <DIcons.Heart className="text-red-600 mx-1 h-4 w-4 animate-pulse" />
-          <span> by </span>
+          <span className="font-bold">CR color & design solution</span>
+          <span> di </span>
           <span className="hover:text-ali dark:hover:text-ali cursor-pointer text-black dark:text-white">
             <a
               aria-label="Logo"
@@ -33,13 +20,7 @@ const Footer = ({children}: FooterProps) => {
               href="https://www.instagram.com/aliimam.in/"
               target="_blank"
             >
-              Ali Imam {""}
-            </a>
-          </span>
-          -
-          <span className="hover:text-ali dark:hover:text-red-600 cursor-pointer text-slate-600 dark:text-slate-400">
-            <a aria-label="Logo" className="" href="/">
-              Designali
+              Renato Ciarallo {""}
             </a>
           </span>
         </div>

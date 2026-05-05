@@ -74,7 +74,7 @@ const HeroSection = React.forwardRef<HTMLDivElement, HeroSectionProps>(
         >
           {/* Animated Title */}
           <motion.h1
-            className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl"
+            className="text-5xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
             variants={itemVariants}
           >
             {title}
