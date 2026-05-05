@@ -67,7 +67,7 @@ const HeroSection = React.forwardRef<HTMLDivElement, HeroSectionProps>(
 
         {/* Content Container */}
         <motion.div
-          className="z-10 flex max-w-4xl flex-col items-center justify-center text-start text-primary-foreground"
+          className="z-10 flex max-w-4xl flex-col items-center justify-center text-start text-primary-foreground px-5"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
