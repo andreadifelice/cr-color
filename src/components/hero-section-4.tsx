@@ -82,7 +82,7 @@ const HeroSection = React.forwardRef<HTMLDivElement, HeroSectionProps>(
 
           {/* Animated Subtitle */}
           <motion.p
-            className="mt-6 w-full text-md leading-8 md:text-lg"
+            className="mt-6 w-full text-sm leading-8 md:text-lg"
             variants={itemVariants}
           >
             {subtitle}
