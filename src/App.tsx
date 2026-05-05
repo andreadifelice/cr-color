@@ -6,6 +6,7 @@ import Footer from "./components/ui/footer"
 import { Navbar1 } from "./components/ui/navbar-1"
 import SlideShowServices from "./components/ui/SlideShowServices"
 import img from '/public/foto.png'
+import {DivPadding} from './components/div/DivPadding'
 
 const App = () => {
     return (
@@ -16,16 +17,18 @@ const App = () => {
                 subtitle="Dalla solidità del cartongesso all'estetica dei pavimenti SPC, fino all'efficienza del cappotto termico. Trasformo i tuoi spazi con interventi completi, finiture di pregio e la cura di chi lavora con passione artigiana." 
                 imageUrl={img} 
             />
-            <DivContainer id={'progetti'}>
-                <SliderReports />
-            </DivContainer>
-            <DivContainer id={'servizi'}>
-                <SlideShowServices />
-            </DivContainer>
-            <DivContainer id={'contatti'} className="flex-col">
-                <SocialConnect />
-                <Footer />
-            </DivContainer>
+            <DivPadding>
+                <DivContainer id={'progetti'}>
+                    <SliderReports />
+                </DivContainer>
+                <DivContainer id={'servizi'}>
+                    <SlideShowServices />
+                </DivContainer>
+                <DivContainer id={'contatti'} className={"flex-col"}>
+                    <SocialConnect />
+                    <Footer />
+                </DivContainer>
+            </DivPadding>
         </>
     )
 }

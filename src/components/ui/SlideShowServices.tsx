@@ -6,7 +6,7 @@ const SlideShowServices = () => {
     const SLIDES = servicesData;
 
     return (
-        <HoverSlider className="min-h-svh place-content-center bg-background w-full text-[#3d3929]">
+        <HoverSlider className="place-content-center bg-background w-full text-[#3d3929]">
         <h2 className="mb-6 text-[rgb(201, 100, 66)] text-2xl font-semibold capitalize text-[#c96442]">
             Servizi offerti
         </h2>

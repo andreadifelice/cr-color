@@ -3,18 +3,13 @@ import { type ElementType } from 'react';
 import type { SimpleIcon } from 'simple-icons';
 
 const SocialConnect = () => {
-  //const [isExpanded, setIsExpanded] = useState(false);
-  
   return (
-    <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4 font-sans w-full">
+    <div className="lg:min-h-screen bg-background flex flex-col items-center justify-center font-sans w-full">
       <div className="w-full max-w-3xl mx-auto text-center mb-16">
         <h1 className="text-6xl md:text-7xl font-bold mb-6">
-          {/* Applichiamo la classe custom solo alla parola "Contatta" */}
           <span className="text-cr-color">
             Contatta
           </span>
-          
-          {/* Lo span con text-primary rimane separato */}
           <span className="text-primary"> per la tua prima consulenza</span>
         </h1>
         <p className="text-xl text-gray-400 max-w-2xl mx-auto">
